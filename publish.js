@@ -65,11 +65,11 @@ window.onload = function () {
     var logoElem = document.createElement('div');
     logoElem.setAttribute('class', 'brand');
     logoElem.setAttribute('id', 'logo');
-    logoElem.innerHTML = '九 <span>色</span><span class="flag">视频</span>'
+    logoElem.innerHTML = '香 <span>蕉</span><span class="flag">视频</span>'
     mainElem.appendChild(logoElem);
 
     // newest urls
-    var newestFieldElem = createFieldElem({title: '最新地址', items: newestUrls, text: '请使用http://协议访问九色视频'});
+    var newestFieldElem = createFieldElem({title: '最新地址', items: newestUrls, text: '请使用http://协议访问香蕉视频'});
     mainElem.appendChild(newestFieldElem);
 
     // other urls
